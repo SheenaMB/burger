@@ -1,3 +1,11 @@
+.container {
+  background: pink;
+  padding: 20px;
+}
+.btn {
+  margin-left: 20px;
+}
+
 li {
   padding: 5px;
   margin: 5px;
@@ -16,4 +24,14 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.jumbotron{
+  color: rgb(70, 70, 233);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: rgb(170, 238, 231);
+}
+h2 {
+  color: rgb(70, 70, 233);
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
