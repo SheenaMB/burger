@@ -30,6 +30,7 @@ function objToSql(ob) {
             arr.push(key + "=" + value);
         }
     }
+    return arr;
 }
 
 var orm = {
@@ -58,6 +59,8 @@ var orm = {
         });
     },
     update: function (table, objColVals, condition, cb) {
+        console.log("------test-----");
+        console.log(table,objColVals);
         var queryString = "UPDATE " + table;
 
         queryString += " SET " + objToSql(objColVals);
