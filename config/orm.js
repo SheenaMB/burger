@@ -44,7 +44,7 @@ var orm = {
         });
     },
     create: function (table, cols, vals, cb) {
-        var queryString = "INSTERT INTO " + table;
+        var queryString = "INSERT INTO " + table;
 
         queryString += " (" + cols.toString() + ") "
         queryString += "VALUES (" + printQuestionMarks(vals.length) + ") "
